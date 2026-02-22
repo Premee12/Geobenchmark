@@ -1,0 +1,34 @@
+{
+  "dataset_name": "GeoBenchmark",
+  "version": "1.0",
+  "status": "Accepted Submission (LREC 2026)",
+  "description": "Probing Large Language Models for Geo-Spatial Knowledge",
+  "languages": ["en"],
+  "formats": ["csv"],
+  "num_samples": {
+    "yes_no": 26252,
+    "mcq": 13126
+  },
+  "concept_levels": {
+    "atomic": 10000,
+    "two_relation": 14844,
+    "three_relation": 1408
+  },
+  "relation_tokens": {
+    "direction": ["north", "south", "east", "west"],
+    "distance": ["near", "close", "far", "distant"],
+    "topology": ["within", "borders"]
+  },
+  "unique_entities": {
+    "subjects": 783,
+    "objects": 820
+  },
+  "encoding": "UTF-8",
+  "separator": ",",
+  "source": "YAGO2geo (United Kingdom OS)",
+  "license": "CC BY-SA 4.0",
+  "url": "https://github.com/irit/GeoBenchmark",
+  "contains_personal_data": false,
+  "data_folders": ["relations", "results/binary", "results/mcq"],
+  "created": " "
+}
