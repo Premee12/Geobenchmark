@@ -31,7 +31,7 @@ The dataset is derived from the United Kingdom subset of [YAGO2geo](https://yago
 
 ## Team & Authors
 
-<img align="right" src="https://github.com/AI-team-UoA/.github/blob/main/AI_LOGO.png?raw=true" alt="ai-team-uoa" width="200"/>
+<img align="right" src="/Users/ayomideabayomialli/Documents/Geobenchmark/irit.jpeg" alt="ai-team-uoa" width="200"/>
 
 - [**Lynda Tamine-Lechani**](https://www.irit.fr/~Lynda.Tamine-Lechani/), Professor, Universty of Toulouse, France 
 - [**Jose G Moreno**](https://www.irit.fr/~Jose.Moreno/), Associate Professor, Universty of Toulouse, France
