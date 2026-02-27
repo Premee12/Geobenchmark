@@ -313,7 +313,7 @@ If you use GeoBenchmark in your research, please cite:
   author    = { },
   year      = {2026},
   publisher = {LREC 2026 Dataset Track},
-  url       = {https://github.com/irit/GeoBenchmark}
+  url       = {https://github.com/Premee12/Geobenchmark.git}
 }
 ```
 
@@ -347,4 +347,4 @@ Contributions are welcome. To contribute:
 
 ---
 
-**Last Updated:** February 2026 | **Repository:** [https://github.com/irit/GeoBenchmark](https://github.com/Premee12/Geobenchmark.git)
+**Last Updated:** February 2026 | **Repository:** [https://github.com/Premee12/GeoBenchmark](https://github.com/Premee12/Geobenchmark.git)
