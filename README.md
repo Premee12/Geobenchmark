@@ -310,7 +310,7 @@ If you use GeoBenchmark in your research, please cite:
 ```bibtex
 @dataset{geobenchmark2026,
   title     = {GeoBenchmark: Probing Large Language Models for Geo-Spatial Knowledge},
-  author    = {Lynda Tamine-Lechani, Jose G Moreno, Abayomi-Alli Ayomide and Karim Radouane},
+  author    = {Abayomi-Alli Ayomide, Jose G Moreno, Karim Radouane and Lynda Tamine-Lechani},
   year      = {2026},
   publisher = {LREC 2026 Dataset Track},
   url       = {https://github.com/Premee12/Geobenchmark.git}
