@@ -347,4 +347,4 @@ Contributions are welcome. To contribute:
 
 ---
 
-**Last Updated:** February 2026 | **Repository:** [https://github.com/irit/GeoBenchmark](https://github.com/irit/GeoBenchmark)
+**Last Updated:** February 2026 | **Repository:** [https://github.com/irit/GeoBenchmark](https://github.com/Premee12/Geobenchmark.git)
