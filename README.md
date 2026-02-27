@@ -35,8 +35,8 @@ The dataset is derived from the United Kingdom subset of [YAGO2geo](https://yago
 
 - [**Lynda Tamine-Lechani**](https://www.irit.fr/~Lynda.Tamine-Lechani/), Professor, Universty of Toulouse, France 
 - [**Jose G Moreno**](https://www.irit.fr/~Jose.Moreno/), Associate Professor, Universty of Toulouse, France
-- [**Abayomi-Alli Ayomide**](https://www.linkedin.com/in/ayomide-abayomi-alli/), Masters Research Student, Université Jean Monnet Saint-Etienne, France
-- [**Karim Radouane**](https://), Phd Researcher Student, Universty of Toulouse, France
+- [**Abayomi-Alli Ayomide**](https://premee12.github.io/githubportfolio/index.html), Masters Research Student, Université Jean Monnet Saint-Etienne, France
+- [**Karim Radouane**](https://rd20karim.github.io/), Post-doctoral Researcher, Universty of Toulouse, France
 
 ---
 
