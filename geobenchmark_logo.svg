@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 160" width="480" height="160" shape-rendering="geometricPrecision">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .primary { fill: #0D2B5E; }
+      .accent { fill: #1A4A9E; }
+      .light { fill: #3D6FCC; }
+      .text-main { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 700; fill: #0D2B5E; }
+      .text-sub  { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; fill: #3D6FCC; letter-spacing: 0.18em; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="480" height="160" rx="8"/>
+
+  <!-- ═══════════════════════════════════════════
+       ICON MARK  (80×80, centered at 68,80)
+       Globe grid + neural nodes + polygon region
+  ══════════════════════════════════════════════ -->
+
+  <!-- Outer circle (globe outline) -->
+  <circle cx="68" cy="80" r="38" fill="none" stroke="#0D2B5E" stroke-width="2.4"/>
+
+  <!-- Latitude lines -->
+  <ellipse cx="68" cy="80" rx="38" ry="13" fill="none" stroke="#0D2B5E" stroke-width="1.2" opacity="0.45"/>
+  <ellipse cx="68" cy="80" rx="38" ry="26" fill="none" stroke="#0D2B5E" stroke-width="1.0" opacity="0.3"/>
+
+  <!-- Longitude arc (central meridian) -->
+  <ellipse cx="68" cy="80" rx="16" ry="38" fill="none" stroke="#0D2B5E" stroke-width="1.2" opacity="0.45"/>
+
+  <!-- Horizontal equator line -->
+  <line x1="30" y1="80" x2="106" y2="80" stroke="#0D2B5E" stroke-width="1.0" opacity="0.3"/>
+
+  <!-- Vertical axis line -->
+  <line x1="68" y1="42" x2="68" y2="118" stroke="#0D2B5E" stroke-width="1.0" opacity="0.3"/>
+
+  <!-- ── Polygon region (shaded territory) ── -->
+  <!-- A filled irregular polygon representing a geographic ward/region -->
+  <polygon
+    points="55,62  72,57  84,65  88,76  80,88  68,92  56,85  50,74"
+    fill="#1A4A9E" fill-opacity="0.18"
+    stroke="#1A4A9E" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- ── Neural network nodes overlaid on polygon ── -->
+  <!-- Edges / connections first (behind nodes) -->
+  <line x1="55" y1="62" x2="72" y2="57" stroke="#0D2B5E" stroke-width="1.2" opacity="0.7"/>
+  <line x1="72" y1="57" x2="84" y2="65" stroke="#0D2B5E" stroke-width="1.2" opacity="0.7"/>
+  <line x1="84" y1="65" x2="88" y2="76" stroke="#0D2B5E" stroke-width="1.2" opacity="0.7"/>
+  <line x1="88" y1="76" x2="80" y2="88" stroke="#0D2B5E" stroke-width="1.2" opacity="0.7"/>
+  <line x1="80" y1="88" x2="68" y2="92" stroke="#0D2B5E" stroke-width="1.2" opacity="0.7"/>
+  <line x1="68" y1="92" x2="56" y2="85" stroke="#0D2B5E" stroke-width="1.2" opacity="0.7"/>
+  <line x1="56" y1="85" x2="50" y2="74" stroke="#0D2B5E" stroke-width="1.2" opacity="0.7"/>
+  <line x1="50" y1="74" x2="55" y2="62" stroke="#0D2B5E" stroke-width="1.2" opacity="0.7"/>
+  <!-- Diagonal internal connections (neural-style) -->
+  <line x1="55" y1="62" x2="84" y2="65" stroke="#3D6FCC" stroke-width="0.9" opacity="0.5"/>
+  <line x1="72" y1="57" x2="88" y2="76" stroke="#3D6FCC" stroke-width="0.9" opacity="0.5"/>
+  <line x1="55" y1="62" x2="68" y2="92" stroke="#3D6FCC" stroke-width="0.9" opacity="0.5"/>
+  <line x1="50" y1="74" x2="80" y2="88" stroke="#3D6FCC" stroke-width="0.9" opacity="0.4"/>
+
+  <!-- Nodes (filled circles) at polygon vertices -->
+  <circle cx="55" cy="62" r="3.2" class="primary"/>
+  <circle cx="72" cy="57" r="3.2" class="primary"/>
+  <circle cx="84" cy="65" r="3.2" class="primary"/>
+  <circle cx="88" cy="76" r="3.2" class="primary"/>
+  <circle cx="80" cy="88" r="3.2" class="primary"/>
+  <circle cx="68" cy="92" r="3.2" class="primary"/>
+  <circle cx="56" cy="85" r="3.2" class="primary"/>
+  <circle cx="50" cy="74" r="3.2" class="primary"/>
+
+  <!-- Inner centroid node (hub) -->
+  <circle cx="68" cy="75" r="4.8" class="accent"/>
+  <circle cx="68" cy="75" r="2.4" fill="#ffffff"/>
+
+  <!-- ═══════════════════════════════════════════
+       WORDMARK
+  ══════════════════════════════════════════════ -->
+
+  <!-- Main title -->
+  <text x="126" y="88" class="text-main" font-size="38" letter-spacing="-0.5">Geo<tspan fill="#1A4A9E">Benchmark</tspan></text>
+
+  <!-- Subtitle / tagline -->
+  <text x="128" y="112" class="text-sub" font-size="11">GEOSPATIAL REASONING · LLM EVALUATION</text>
+
+  <!-- Thin rule separating icon from text -->
+  <line x1="114" y1="50" x2="114" y2="120" stroke="#0D2B5E" stroke-width="1.5" opacity="0.2"/>
+
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" shape-rendering="geometricPrecision">
+  <defs>
+    <style>
+      .bg    { fill: #0D2B5E; }
+      .light { fill: #ffffff; }
+      .mid   { fill: #3D6FCC; }
+      .globe { fill: none; stroke: #ffffff; }
+      .poly  { fill: #3D6FCC; fill-opacity: 0.25; stroke: #ffffff; stroke-linejoin: round; }
+      .edge  { stroke: #ffffff; fill: none; }
+      .edged { stroke: #7AA8EE; fill: none; }
+      .node  { fill: #ffffff; }
+      .hub   { fill: #3D6FCC; }
+    </style>
+  </defs>
+
+  <!-- Dark background square with rounded corners -->
+  <rect class="bg" width="160" height="160" rx="18"/>
+
+  <!-- Globe outer circle -->
+  <circle cx="80" cy="80" r="58" class="globe" stroke-width="2.2"/>
+
+  <!-- Latitude bands -->
+  <ellipse cx="80" cy="80" rx="58" ry="19" class="globe" stroke-width="1.1" opacity="0.4"/>
+  <ellipse cx="80" cy="80" rx="58" ry="39" class="globe" stroke-width="0.9" opacity="0.25"/>
+
+  <!-- Meridian arc -->
+  <ellipse cx="80" cy="80" rx="22" ry="58" class="globe" stroke-width="1.1" opacity="0.4"/>
+
+  <!-- Equator & axis crosshairs -->
+  <line x1="22" y1="80" x2="138" y2="80" stroke="#ffffff" stroke-width="0.9" opacity="0.25"/>
+  <line x1="80" y1="22" x2="80" y2="138" stroke="#ffffff" stroke-width="0.9" opacity="0.25"/>
+
+  <!-- Polygon region -->
+  <polygon
+    points="62,55  82,48  100,60  108,78  98,96  80,104  62,98  52,80"
+    class="poly" stroke-width="1.8"/>
+
+  <!-- Internal diagonal neural edges -->
+  <line x1="62" y1="55" x2="100" y2="60" class="edged" stroke-width="1.0" opacity="0.5"/>
+  <line x1="82" y1="48" x2="108" y2="78" class="edged" stroke-width="1.0" opacity="0.5"/>
+  <line x1="62" y1="55" x2="80" y2="104" class="edged" stroke-width="1.0" opacity="0.5"/>
+  <line x1="52" y1="80" x2="98" y2="96" class="edged" stroke-width="1.0" opacity="0.4"/>
+  <line x1="62" y1="98" x2="108" y2="78" class="edged" stroke-width="0.9" opacity="0.35"/>
+
+  <!-- Polygon border edges -->
+  <line x1="62" y1="55" x2="82" y2="48"   class="edge" stroke-width="1.4" opacity="0.75"/>
+  <line x1="82" y1="48" x2="100" y2="60"  class="edge" stroke-width="1.4" opacity="0.75"/>
+  <line x1="100" y1="60" x2="108" y2="78" class="edge" stroke-width="1.4" opacity="0.75"/>
+  <line x1="108" y1="78" x2="98" y2="96"  class="edge" stroke-width="1.4" opacity="0.75"/>
+  <line x1="98" y1="96" x2="80" y2="104"  class="edge" stroke-width="1.4" opacity="0.75"/>
+  <line x1="80" y1="104" x2="62" y2="98"  class="edge" stroke-width="1.4" opacity="0.75"/>
+  <line x1="62" y1="98" x2="52" y2="80"   class="edge" stroke-width="1.4" opacity="0.75"/>
+  <line x1="52" y1="80" x2="62" y2="55"   class="edge" stroke-width="1.4" opacity="0.75"/>
+
+  <!-- Vertex nodes -->
+  <circle cx="62"  cy="55"  r="3.8" class="node"/>
+  <circle cx="82"  cy="48"  r="3.8" class="node"/>
+  <circle cx="100" cy="60"  r="3.8" class="node"/>
+  <circle cx="108" cy="78"  r="3.8" class="node"/>
+  <circle cx="98"  cy="96"  r="3.8" class="node"/>
+  <circle cx="80"  cy="104" r="3.8" class="node"/>
+  <circle cx="62"  cy="98"  r="3.8" class="node"/>
+  <circle cx="52"  cy="80"  r="3.8" class="node"/>
+
+  <!-- Central hub node -->
+  <circle cx="80" cy="78" r="7" class="hub"/>
+  <circle cx="80" cy="78" r="3.5" class="node"/>
+
+</svg>

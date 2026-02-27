@@ -2,7 +2,7 @@
 
 <div align="center">
     <br>
-    <img align="center" src="https://github.com/irit/GeoBenchmark/blob/main/logo/geobenchmark_logo.png" alt="GeoBenchmark" width="400"/>
+    <img align="center" src="https://github.com/Premee12/Geobenchmark/blob/main/geobenchmark_logo.svg" alt="GeoBenchmark" width="400"/>
     <br><br>
     <strong>A comprehensive geospatial reasoning benchmark for evaluating large language models on geographic commonsense reasoning tasks.</strong>
     <br><br>
